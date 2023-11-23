@@ -1,0 +1,26 @@
+.card{
+    border: 2px solid black;
+    text-align: Center;
+    padding: 15px;
+    background-color: bisque;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+   border:2px dotted red;
+
+}
+
+.icons-midia{
+    color: brown;
+    justify-content:space-around;
+    display: flex;
+    font-size: 19px;
+}
+
+.card-flex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
